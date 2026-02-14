@@ -2,195 +2,135 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Red Rose Nails & Beauty Salon | Dannevirke</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Rose Nails & Beauty – Dannevirke</title>
 
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background-color: #fff5f8;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff5f7;
       color: #333;
     }
 
     header {
-      background: linear-gradient(135deg, #cf1259, #f48fb1);
+      background: #b91c1c;
       color: white;
-      padding: 30px 20px;
+      padding: 20px;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      font-size: 2.2rem;
+      font-size: 28px;
       letter-spacing: 1px;
     }
 
-    header p {
-      margin-top: 10px;
-      font-size: 1rem;
-    }
-
-    nav {
-      background: #ffffff;
-      text-align: center;
-      padding: 12px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #cf1259;
-      font-weight: 600;
-    }
-
-    section {
+    .container {
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
     }
 
-    h2 {
-      color: #cf1259;
-      text-align: center;
-      margin-bottom: 25px;
-    }
-
-    .about, .hours, .contact {
-      text-align: center;
-      line-height: 1.6;
-    }
-
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .service-card {
+    .card {
       background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      max-width: 650px;
+      width: 100%;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      text-align: center;
     }
 
-    .service-card h3 {
-      margin-top: 0;
-      color: #bd0b5c;
+    .card h2 {
+      color: #b91c1c;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .card p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      font-size: 18px;
+      line-height: 1.8;
+      margin: 25px 0;
+    }
+
+    .contact-info a {
+      color: #b91c1c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
     }
 
     footer {
-      background: #cf1259;
-      color: white;
+      background: #f3f4f6;
       text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.9rem;
+      padding: 15px;
+      font-size: 14px;
+      color: #666;
     }
 
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.6rem;
-      }
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #b91c1c;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #991b1b;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Red Rose Nails & Beauty Salon</h1>
-  <p>123 High Street, Dannevirke • 📞 028-851-39962</p>
-</header>
+  <header>
+    <h1>Red Rose Nails & Beauty – Dannevirke</h1>
+  </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#booking">Book Now</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <div class="container">
+    <div class="card">
+      <h2>Online Booking Temporarily Unavailable</h2>
 
-<section id="about">
-  <h2>Welcome</h2>
-  <p class="about">
-    Welcome to <strong>Red Rose Nails & Beauty Salon</strong>, where beauty meets care.
-    We specialize in elegant nail designs, premium products, and relaxing treatments
-    tailored just for you.
-  </p>
-</section>
+      <p>
+        We sincerely apologise for any inconvenience. 
+        Our online booking system is currently paused while we focus on enhancing 
+        our services and improving the overall experience for our valued clients.
+      </p>
 
-<section id="services">
-  <h2>Our Services</h2>
+      <p>
+        We are still welcoming appointments and would love to assist you directly.
+      </p>
 
-  <div class="services">
-    <div class="service-card">
-      <h3>Nail Extensions</h3>
-      <p>Gel X, Builder Gel, Acrylic, Hard Gel & Ombre styles.</p>
-    </div>
+      <div class="contact-info">
+        📞 <a href="tel:02885139962">028-851-39962</a><br>
+        📧 <a href="mailto:redrosedannevirke25@gmail.com">
+        redrosedannevirke25@gmail.com</a><br>
+        📘 Message us via Facebook @ Red Rose Nails & Beauty Salon Dvke
+      </div>
 
-    <div class="service-card">
-      <h3>Nail Art</h3>
-      <p>French tips, glitter, foil, bloom, 3D art & custom designs.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Manicure & Pedicure</h3>
-      <p>Basic, deluxe manicure & relaxing pedicure services.</p>
-    </div>
-
-    <div class="service-card">
-      <h3>Removal Services</h3>
-      <p>Gel polish & nail extension removal with care.</p>
+      <a href="tel:02885139962" class="button">Call Now</a>
     </div>
   </div>
 
-  <p style="text-align:center; margin-top:20px;">
-    💡 Prices & time are shown during booking for each selected service.
-  </p>
-</section>
-
-<section style="min-height:70vh;display:flex;align-items:center;justify-content:center;background:#fff5f7;padding:40px 20px;">
-  
-  <div style="max-width:650px;background:white;padding:40px;border-radius:16px;
-              box-shadow:0 10px 30px rgba(0,0,0,0.08);text-align:center;
-              font-family: 'Segoe UI', sans-serif;">
-    
-    <h2 style="color:#b91c1c;font-size:32px;margin-bottom:20px;">
-      Online Booking Temporarily Unavailable
-    </h2>
-
-    <p style="font-size:18px;color:#444;line-height:1.6;margin-bottom:25px;">
-      We sincerely apologise for any inconvenience. 
-      Our online booking system is currently paused while we make improvements 
-      to enhance your overall experience at <strong>Red Rose Nails & Beauty</strong>.
-    </p>
-
-    <p style="font-size:18px;color:#333;margin-bottom:15px;">
-      Please contact us directly to schedule your appointment:
-    </p>
-
-    <div style="font-size:18px;line-height:1.8;margin-bottom:25px;">
-      📞 <strong>028-851-39962</strong><br>
-      📧 <strong>redrosedannevirke25@gmail.com</strong><br>
-      📘 Message us via Facebook Page Red Rose Nails & Beauty Salon Dvke
-    </div>
-
-    <p style="font-size:16px;color:#666;">
-      We truly appreciate your understanding and continued support. 
-      We look forward to welcoming you soon.
-    </p>
-
-  </div>
-
-</section>
-
-
-
-<footer>
-  © 2025 Red Rose Nails & Beauty Salon • Dannevirke
-</footer>
+  <footer>
+    © 2026 Red Rose Nails & Beauty – Dannevirke. All rights reserved.
+  </footer>
 
 </body>
 </html>
-
